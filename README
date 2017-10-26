@@ -1,0 +1,14 @@
+ THIS IS ABSTRACT SYNTAX TREE FOR SIMPLE EXPRESSIONS.
+ SAMPLE INPUT AND OUTPUT IS GIVEN BELOW
+
+divay@divay-Vostro-3546:~/Abstract_Syntax_tree$ ./a.out
+
+a=a+b;
+( =  a ( +  a  b ))
+a=1;
+( =  a  1 )
+a=b+c-s+1;
+( =  a ( + ( - ( +  b  c ) s ) 1 ))
+d=m+n-f*s+1*2;
+( =  d ( + ( - ( +  m  n )( *  f  s ))( *  1  2 )))
+
